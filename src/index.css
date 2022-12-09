@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Work_Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/fonts/WorkSans-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Work_Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/WorkSans-Medium.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Work_Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(/fonts/WorkSans-SemiBold.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Work_Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/fonts/WorkSans-Bold.woff2) format("woff2");
+}
+
+@layer base {
+  body {
+    @apply font-body;
+  }
+
+  section {
+    @apply mb-40;
+  }
+}
+
+@layer components {
+  .title-regular {
+    @apply font-normal text-title-color;
+  }
+  .title-medium {
+    @apply font-medium text-title-color;
+  }
+  .title-semibold {
+    @apply font-semibold text-title-color;
+  }
+  .title-bold {
+    @apply font-bold text-title-color;
+  }
+
+  .subtitle-regular {
+    @apply font-normal text-subtitle-color;
+  }
+  .subtitle-medium {
+    @apply font-medium text-subtitle-color;
+  }
+  .subtitle-semibold {
+    @apply font-semibold text-subtitle-color;
+  }
+  .subtitle-bold {
+    @apply font-bold text-subtitle-color;
+  }
+
+  .active {
+    @apply font-medium text-title-color;
+  }
+}
