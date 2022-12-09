@@ -55,17 +55,8 @@
     @apply font-bold text-title-color;
   }
 
-  .subtitle-regular {
+  .subtitle {
     @apply font-normal text-subtitle-color;
-  }
-  .subtitle-medium {
-    @apply font-medium text-subtitle-color;
-  }
-  .subtitle-semibold {
-    @apply font-semibold text-subtitle-color;
-  }
-  .subtitle-bold {
-    @apply font-bold text-subtitle-color;
   }
 
   .active {

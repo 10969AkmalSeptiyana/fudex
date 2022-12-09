@@ -29,7 +29,7 @@ export function HomeFeatured() {
               <h3 className="text-2xl title-semibold my-3">
                 Free Worldwide Shipping
               </h3>
-              <p className="text-base subtitle-regular max-w-[267px]">
+              <p className="text-base subtitle max-w-[267px]">
                 Free shipping to all over the world with many specials only for
                 our dear customers.
               </p>
@@ -54,7 +54,7 @@ export function HomeFeatured() {
               <h3 className="text-2xl title-semibold my-3">
                 Best Quality Product
               </h3>
-              <p className="text-base subtitle-regular max-w-[267px]">
+              <p className="text-base subtitle max-w-[267px]">
                 Many customers entrust various furnitures needs to us, and
                 customer satisfaction is our pride.
               </p>
@@ -86,7 +86,7 @@ export function HomeFeatured() {
               <h3 className="text-2xl title-semibold my-3">
                 Super Affodrable Price
               </h3>
-              <p className="text-base subtitle-regular max-w-[267px]">
+              <p className="text-base subtitle max-w-[267px]">
                 You can get various furnitures with the highest quality at an
                 affoddable price.
               </p>

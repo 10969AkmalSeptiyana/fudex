@@ -4,7 +4,7 @@ export function HomeJoin() {
       <div className="container flex flex-col gap-y-20 lg:flex-row lg:items-center lg:justify-between lg:gap-x-44">
         <div>
           <h3 className="text-3xl title-semibold">Join Our Mail List</h3>
-          <p className="text-base subtitle-regular max-w-[350px] mt-2">
+          <p className="text-base subtitle max-w-[350px] mt-2">
             Don’t miss out, join us and get interesting discounts from us
           </p>
         </div>

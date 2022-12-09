@@ -9,9 +9,9 @@ export function Navigation() {
         <span className="text-4xl title-bold">Fudex</span>
         <ul className="hidden md:flex items-center gap-x-10">
           <li className="text-base active">Home</li>
-          <li className="text-base subtitle-regular">Product</li>
-          <li className="text-base subtitle-regular">Categories</li>
-          <li className="text-base subtitle-regular">Promo</li>
+          <li className="text-base subtitle">Product</li>
+          <li className="text-base subtitle">Categories</li>
+          <li className="text-base subtitle">Promo</li>
         </ul>
         <div className="hidden md:flex items-center gap-x-7">
           <button className="flex items-center space-x-2 text-base title-medium">
@@ -50,9 +50,9 @@ export function Navigation() {
           <div>
             <ul className="text-center space-y-10">
               <li className="text-base active">Home</li>
-              <li className="text-base subtitle-regular">Product</li>
-              <li className="text-base subtitle-regular">Categories</li>
-              <li className="text-base subtitle-regular">Promo</li>
+              <li className="text-base subtitle">Product</li>
+              <li className="text-base subtitle">Categories</li>
+              <li className="text-base subtitle">Promo</li>
             </ul>
             <button className="text-base title-medium border-2 border-title-color py-2 px-5 rounded mt-10">
               Register

@@ -16,7 +16,7 @@ export function HomeRating() {
             />
           </svg>
         </figure>
-        <p className="text-xl md:text-2xl subtitle-regular text-center max-w-[725px] mt-5">
+        <p className="text-xl md:text-2xl subtitle text-center max-w-[725px] mt-5">
           Their product are Amazing! This is the best place to buy any
           furnitures with super fantastic quality and design. With super many
           benefits you must try it.
